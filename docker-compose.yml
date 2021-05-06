@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  rasa-container:
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - './project:/project'
